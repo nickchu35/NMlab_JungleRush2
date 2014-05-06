@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Assets/ground.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {1920, 122}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1920, 122}}</string>
+			<key>sourceSize</key>
+			<string>{1920, 122}</string>
+		</dict>
+		<key>Assets/longblock.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2020, 1}, {183, 27}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {183, 27}}</string>
+			<key>sourceSize</key>
+			<string>{183, 27}</string>
+		</dict>
+		<key>Assets/squareblock.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1979, 186}, {49, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {49, 48}}</string>
+			<key>sourceSize</key>
+			<string>{49, 48}</string>
+		</dict>
+		<key>Assets/tallblock.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1923, 1}, {47, 95}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {47, 95}}</string>
+			<key>sourceSize</key>
+			<string>{47, 95}</string>
+		</dict>
+		<key>Assets/taperedblock.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1923, 50}, {227, 54}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {227, 54}}</string>
+			<key>sourceSize</key>
+			<string>{227, 54}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+		<key>textureFileName</key>
+		<string>Assets.png</string>
+	</dict>
+</dict>
+</plist>

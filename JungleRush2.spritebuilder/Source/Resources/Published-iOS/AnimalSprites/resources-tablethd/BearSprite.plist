@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>AnimalSprites/BearSprite/bear1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {902, 552}}</string>
+			<key>offset</key>
+			<string>{1, -2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {902, 552}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+		<key>AnimalSprites/BearSprite/bear2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{905, 554}, {836, 557}}</string>
+			<key>offset</key>
+			<string>{-32, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {836, 557}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+		<key>AnimalSprites/BearSprite/bear3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2591, 1}, {836, 557}}</string>
+			<key>offset</key>
+			<string>{-32, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {836, 557}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+		<key>AnimalSprites/BearSprite/bear4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1753, 1}, {836, 557}}</string>
+			<key>offset</key>
+			<string>{-32, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {836, 557}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+		<key>AnimalSprites/BearSprite/bear5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 555}, {836, 557}}</string>
+			<key>offset</key>
+			<string>{-32, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {836, 557}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+		<key>AnimalSprites/BearSprite/bear6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3429, 1}, {816, 557}}</string>
+			<key>offset</key>
+			<string>{-42, -4}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {816, 557}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+		<key>AnimalSprites/BearSprite/bear7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1743, 560}, {817, 549}}</string>
+			<key>offset</key>
+			<string>{-41, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {817, 549}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+		<key>AnimalSprites/BearSprite/bear8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{905, 1}, {846, 551}}</string>
+			<key>offset</key>
+			<string>{-27, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16, 16}, {846, 551}}</string>
+			<key>sourceSize</key>
+			<string>{932, 580}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{4096, 4096}</string>
+		<key>textureFileName</key>
+		<string>BearSprite.png</string>
+	</dict>
+</dict>
+</plist>

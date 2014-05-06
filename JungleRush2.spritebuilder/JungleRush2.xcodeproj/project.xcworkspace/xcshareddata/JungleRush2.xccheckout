@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB1748F0-1FDF-4CD8-BB08-F6E425A220CC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JungleRush2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>53B7CD80-0284-4D93-AD9F-664314F860D3</key>
+		<string>https://github.com/nickchu35/JungleRush2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JungleRush2.spritebuilder/JungleRush2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>53B7CD80-0284-4D93-AD9F-664314F860D3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nickchu35/JungleRush2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>53B7CD80-0284-4D93-AD9F-664314F860D3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>53B7CD80-0284-4D93-AD9F-664314F860D3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JungleRush2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

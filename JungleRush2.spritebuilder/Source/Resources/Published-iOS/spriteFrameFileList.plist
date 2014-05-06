@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+	</dict>
+	<key>spriteFrameFiles</key>
+	<array>
+		<string>Gear.plist</string>
+		<string>SquirlSprite.plist</string>
+		<string>BackGrounds.plist</string>
+		<string>EntranceAssets.plist</string>
+		<string>ccbResources.plist</string>
+		<string>Blank.plist</string>
+		<string>Assets.plist</string>
+		<string>DogSprite.plist</string>
+		<string>BearSprite.plist</string>
+		<string>SkyBackground.plist</string>
+		<string>LeoSprite.plist</string>
+		<string>Buttons.plist</string>
+		<string>ChooseAssets.plist</string>
+	</array>
+</dict>
+</plist>

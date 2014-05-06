@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>LeoSprite/leo_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {185, 99}}</string>
+			<key>offset</key>
+			<string>{-2, -8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 28}, {185, 99}}</string>
+			<key>sourceSize</key>
+			<string>{193, 139}</string>
+		</dict>
+		<key>LeoSprite/leo_11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{322, 157}, {146, 88}}</string>
+			<key>offset</key>
+			<string>{3, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{27, 15}, {146, 88}}</string>
+			<key>sourceSize</key>
+			<string>{195, 126}</string>
+		</dict>
+		<key>LeoSprite/leo_12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 198}, {151, 89}}</string>
+			<key>offset</key>
+			<string>{-1, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{19, 23}, {151, 89}}</string>
+			<key>sourceSize</key>
+			<string>{192, 126}</string>
+		</dict>
+		<key>LeoSprite/leo_13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 102}, {165, 94}}</string>
+			<key>offset</key>
+			<string>{-6, -8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 18}, {165, 94}}</string>
+			<key>sourceSize</key>
+			<string>{195, 114}</string>
+		</dict>
+		<key>LeoSprite/leo_14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{188, 1}, {179, 101}}</string>
+			<key>offset</key>
+			<string>{-6, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 11}, {179, 101}}</string>
+			<key>sourceSize</key>
+			<string>{192, 114}</string>
+		</dict>
+		<key>LeoSprite/leo_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{369, 1}, {154, 93}}</string>
+			<key>offset</key>
+			<string>{-1, -11}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{17, 34}, {154, 93}}</string>
+			<key>sourceSize</key>
+			<string>{191, 139}</string>
+		</dict>
+		<key>LeoSprite/leo_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{168, 104}, {152, 93}}</string>
+			<key>offset</key>
+			<string>{1, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{22, 23}, {152, 93}}</string>
+			<key>sourceSize</key>
+			<string>{195, 131}</string>
+		</dict>
+		<key>LeoSprite/leo_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{154, 199}, {144, 81}}</string>
+			<key>offset</key>
+			<string>{3, 7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26, 17}, {144, 81}}</string>
+			<key>sourceSize</key>
+			<string>{190, 130}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>textureFileName</key>
+		<string>LeoSprite.png</string>
+	</dict>
+</dict>
+</plist>

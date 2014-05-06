@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>EntranceAssets/entrance.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {1248, 936}}</string>
+			<key>offset</key>
+			<string>{-144, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1248, 936}}</string>
+			<key>sourceSize</key>
+			<string>{1536, 936}</string>
+		</dict>
+		<key>EntranceAssets/entrance_03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1829, 119}, {116, 24}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {116, 24}}</string>
+			<key>sourceSize</key>
+			<string>{116, 24}</string>
+		</dict>
+		<key>EntranceAssets/entrance_04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1251, 1}, {388, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {388, 224}}</string>
+			<key>sourceSize</key>
+			<string>{388, 224}</string>
+		</dict>
+		<key>EntranceAssets/entrance_05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1641, 1}, {116, 327}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {116, 327}}</string>
+			<key>sourceSize</key>
+			<string>{116, 327}</string>
+		</dict>
+		<key>EntranceAssets/entrance_06.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1970, 18}, {62, 150}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {62, 150}}</string>
+			<key>sourceSize</key>
+			<string>{62, 150}</string>
+		</dict>
+		<key>EntranceAssets/entrance_07.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1968, 170}, {140, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {140, 40}}</string>
+			<key>sourceSize</key>
+			<string>{140, 40}</string>
+		</dict>
+		<key>EntranceAssets/entrance_08.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1641, 119}, {186, 129}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {186, 129}}</string>
+			<key>sourceSize</key>
+			<string>{186, 129}</string>
+		</dict>
+		<key>EntranceAssets/entrance_09.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1829, 145}, {140, 110}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {140, 110}}</string>
+			<key>sourceSize</key>
+			<string>{140, 110}</string>
+		</dict>
+		<key>EntranceAssets/entrance_11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1970, 1}, {74, 15}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {74, 15}}</string>
+			<key>sourceSize</key>
+			<string>{74, 15}</string>
+		</dict>
+		<key>EntranceAssets/entrance_14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1947, 119}, {78, 19}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {78, 19}}</string>
+			<key>sourceSize</key>
+			<string>{78, 19}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+		<key>textureFileName</key>
+		<string>EntranceAssets.png</string>
+	</dict>
+</dict>
+</plist>

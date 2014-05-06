@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>ChooseAssets/choose.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {3072, 2286}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {3072, 2286}}</string>
+			<key>sourceSize</key>
+			<string>{3072, 2286}</string>
+		</dict>
+		<key>ChooseAssets/choose_01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3075, 1}, {1024, 559}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1024, 559}}</string>
+			<key>sourceSize</key>
+			<string>{1024, 559}</string>
+		</dict>
+		<key>ChooseAssets/choose_02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3636, 1}, {496, 209}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {496, 209}}</string>
+			<key>sourceSize</key>
+			<string>{496, 209}</string>
+		</dict>
+		<key>ChooseAssets/choose_03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3847, 1}, {185, 53}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {185, 53}}</string>
+			<key>sourceSize</key>
+			<string>{185, 53}</string>
+		</dict>
+		<key>ChooseAssets/choose_04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3847, 152}, {117, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {117, 100}}</string>
+			<key>sourceSize</key>
+			<string>{117, 100}</string>
+		</dict>
+		<key>ChooseAssets/choose_05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{4034, 1}, {183, 55}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {183, 55}}</string>
+			<key>sourceSize</key>
+			<string>{183, 55}</string>
+		</dict>
+		<key>ChooseAssets/choose_06.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3966, 218}, {43, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {43, 100}}</string>
+			<key>sourceSize</key>
+			<string>{43, 100}</string>
+		</dict>
+		<key>ChooseAssets/choose_07.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3847, 56}, {185, 47}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {185, 47}}</string>
+			<key>sourceSize</key>
+			<string>{185, 47}</string>
+		</dict>
+		<key>ChooseAssets/choose_08.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3847, 105}, {183, 45}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {183, 45}}</string>
+			<key>sourceSize</key>
+			<string>{183, 45}</string>
+		</dict>
+		<key>ChooseAssets/choose_09.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{4077, 186}, {8, 109}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {8, 109}}</string>
+			<key>sourceSize</key>
+			<string>{8, 109}</string>
+		</dict>
+		<key>ChooseAssets/choose_10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3847, 254}, {490, 87}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {490, 87}}</string>
+			<key>sourceSize</key>
+			<string>{490, 87}</string>
+		</dict>
+		<key>ChooseAssets/choose_11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3966, 186}, {30, 109}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {30, 109}}</string>
+			<key>sourceSize</key>
+			<string>{30, 109}</string>
+		</dict>
+		<key>ChooseAssets/choose_12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3936, 254}, {490, 22}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {490, 22}}</string>
+			<key>sourceSize</key>
+			<string>{490, 22}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{4096, 4096}</string>
+		<key>textureFileName</key>
+		<string>ChooseAssets.png</string>
+	</dict>
+</dict>
+</plist>
