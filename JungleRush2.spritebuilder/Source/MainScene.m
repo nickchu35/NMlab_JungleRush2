@@ -11,8 +11,8 @@
 @implementation MainScene
 
 - (void)play {
-    CCScene *chooseScene = [CCBReader loadAsScene:@"ChooseScene"];
-    [[CCDirector sharedDirector] replaceScene:chooseScene];
+    CCScene *loginScene = [CCBReader loadAsScene:@"LoginScene"];
+    [[CCDirector sharedDirector] replaceScene:loginScene];
 }
 
 - (void)option {
