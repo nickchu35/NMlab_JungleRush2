@@ -19,8 +19,8 @@
 }
 
 - (void)start {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"NewGamePlaySkyL"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+    CCScene *lobbyScene = [CCBReader loadAsScene:@"PlayerLobby"];
+    [[CCDirector sharedDirector] replaceScene:lobbyScene];
 }
 
 - (void)backToMenu {

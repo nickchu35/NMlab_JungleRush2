@@ -13,9 +13,6 @@
 -(void)go{
     CCScene *chooseScene = [CCBReader loadAsScene:@"ChooseScene"];
     [[CCDirector sharedDirector] replaceScene:chooseScene];
-    NSString *username = [_usernameTextField string];
-    NSLog(username);
-    
 }
 
 @end
