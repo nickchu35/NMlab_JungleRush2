@@ -71,4 +71,30 @@
     [_spriteNode addChild:_animal];
 }
 
+- (void)stateChanged:(NetworkState)state {
+    switch(state) {
+        case NetworkStateNotAvailable:
+            NSLog(@"Not Available");
+            break;
+        case NetworkStatePendingAuthentication:
+            NSLog(@"Pending Authentication");
+            break;
+        case NetworkStateAuthenticated:
+            NSLog(@"Authenticated");
+            break;
+        case NetworkStateConnectingToServer:
+            NSLog(@"Connecting to Server");
+            break;
+        case NetworkStateConnected:
+            NSLog(@"Connected");
+            break;
+        case NetworkStatePendingMatchStatus:
+            NSLog(@"Pending Match Status");
+            break;
+        case NetworkStateReceivedMatchStatus:
+            NSLog(@"Received Match Status");
+            break;
+    }
+}
+
 @end

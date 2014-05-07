@@ -19,6 +19,11 @@
 		04B10837190AC369000032D9 /* HelpScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10836190AC369000032D9 /* HelpScene.m */; };
 		04D8772A19155B5200721EE4 /* NewGamePlaySky.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8772919155B5200721EE4 /* NewGamePlaySky.m */; };
 		04D8772F191655E100721EE4 /* NewGamePlaySkyL.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8772E191655E100721EE4 /* NewGamePlaySkyL.m */; };
+		18713D72191A77070095845D /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18713D71191A77070095845D /* NetworkController.m */; };
+		18713D75191A77320095845D /* MessageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18713D74191A77320095845D /* MessageWriter.m */; };
+		18713D78191A7A040095845D /* MessageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18713D77191A7A040095845D /* MessageReader.m */; };
+		18713D7B191A867E0095845D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 18713D7A191A867E0095845D /* Player.m */; };
+		18713D7E191A8A040095845D /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 18713D7D191A8A040095845D /* Match.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -90,6 +95,16 @@
 		04D8772919155B5200721EE4 /* NewGamePlaySky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlaySky.m; path = Source/NewGamePlaySky.m; sourceTree = "<group>"; };
 		04D8772D191655E100721EE4 /* NewGamePlaySkyL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlaySkyL.h; path = Source/NewGamePlaySkyL.h; sourceTree = "<group>"; };
 		04D8772E191655E100721EE4 /* NewGamePlaySkyL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlaySkyL.m; path = Source/NewGamePlaySkyL.m; sourceTree = "<group>"; };
+		18713D70191A77070095845D /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkController.h; path = Internet/NetworkController.h; sourceTree = "<group>"; };
+		18713D71191A77070095845D /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkController.m; path = Internet/NetworkController.m; sourceTree = "<group>"; };
+		18713D73191A77320095845D /* MessageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageWriter.h; path = Internet/MessageWriter.h; sourceTree = "<group>"; };
+		18713D74191A77320095845D /* MessageWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageWriter.m; path = Internet/MessageWriter.m; sourceTree = "<group>"; };
+		18713D76191A7A040095845D /* MessageReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageReader.h; path = Internet/MessageReader.h; sourceTree = "<group>"; };
+		18713D77191A7A040095845D /* MessageReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageReader.m; path = Internet/MessageReader.m; sourceTree = "<group>"; };
+		18713D79191A867E0095845D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Internet/Player.h; sourceTree = "<group>"; };
+		18713D7A191A867E0095845D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Internet/Player.m; sourceTree = "<group>"; };
+		18713D7C191A8A040095845D /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Match.h; path = Internet/Match.h; sourceTree = "<group>"; };
+		18713D7D191A8A040095845D /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Match.m; path = Internet/Match.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -146,15 +161,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9222E2B918734FF800A246C7 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		B737893C1807616C0076A88C /* Source */ = {
+		18713D6B191A76B10095845D /* GUI */ = {
 			isa = PBXGroup;
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
@@ -184,6 +191,40 @@
 				042E0820191A366D00851F3A /* PlayerList.h */,
 				042E0821191A366D00851F3A /* PlayerList.m */,
 				04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		18713D6D191A76C40095845D /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				18713D70191A77070095845D /* NetworkController.h */,
+				18713D71191A77070095845D /* NetworkController.m */,
+				18713D73191A77320095845D /* MessageWriter.h */,
+				18713D74191A77320095845D /* MessageWriter.m */,
+				18713D76191A7A040095845D /* MessageReader.h */,
+				18713D77191A7A040095845D /* MessageReader.m */,
+				18713D79191A867E0095845D /* Player.h */,
+				18713D7A191A867E0095845D /* Player.m */,
+				18713D7C191A8A040095845D /* Match.h */,
+				18713D7D191A8A040095845D /* Match.m */,
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		9222E2B918734FF800A246C7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		B737893C1807616C0076A88C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				18713D6D191A76C40095845D /* Internet */,
+				18713D6B191A76B10095845D /* GUI */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -380,16 +421,21 @@
 				042E081E1919FA1200851F3A /* LoginScene.m in Sources */,
 				04ACABA4191921D20050D6C8 /* UserClass.m in Sources */,
 				042E0822191A366D00851F3A /* PlayerList.m in Sources */,
+				18713D78191A7A040095845D /* MessageReader.m in Sources */,
 				042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */,
+				18713D72191A77070095845D /* NetworkController.m in Sources */,
 				04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				18713D7E191A8A040095845D /* Match.m in Sources */,
 				04D8772A19155B5200721EE4 /* NewGamePlaySky.m in Sources */,
 				04B1082B190A4D3B000032D9 /* OptionScene.m in Sources */,
 				04D8772F191655E100721EE4 /* NewGamePlaySkyL.m in Sources */,
+				18713D75191A77320095845D /* MessageWriter.m in Sources */,
 				04ACABAB19192C1F0050D6C8 /* PlayerLobby.m in Sources */,
 				04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */,
+				18713D7B191A867E0095845D /* Player.m in Sources */,
 				04B10837190AC369000032D9 /* HelpScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
