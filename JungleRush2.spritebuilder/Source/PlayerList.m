@@ -10,5 +10,8 @@
 
 @implementation PlayerList
 
+-(void)Nick{
+    
+}
 
 @end

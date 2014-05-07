@@ -10,6 +10,7 @@
 		042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */; };
 		042E081E1919FA1200851F3A /* LoginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E081D1919FA1200851F3A /* LoginScene.m */; };
 		042E0822191A366D00851F3A /* PlayerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0821191A366D00851F3A /* PlayerList.m */; };
+		042E0829191A8A7F00851F3A /* chala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042E0828191A8A7F00851F3A /* chala.mp3 */; };
 		04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745F61190B88FE001C0B74 /* NewGamePlayIce.m */; };
 		04ACABA4191921D20050D6C8 /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABA3191921D20050D6C8 /* UserClass.m */; };
 		04ACABA6191924870050D6C8 /* TokyoDrift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */; };
@@ -73,6 +74,7 @@
 		042E081D1919FA1200851F3A /* LoginScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginScene.m; path = Source/LoginScene.m; sourceTree = "<group>"; };
 		042E0820191A366D00851F3A /* PlayerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerList.h; path = Source/PlayerList.h; sourceTree = "<group>"; };
 		042E0821191A366D00851F3A /* PlayerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerList.m; path = Source/PlayerList.m; sourceTree = "<group>"; };
+		042E0828191A8A7F00851F3A /* chala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chala.mp3; sourceTree = "<group>"; };
 		04745F60190B88FE001C0B74 /* NewGamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlayIce.h; path = Source/NewGamePlayIce.h; sourceTree = "<group>"; };
 		04745F61190B88FE001C0B74 /* NewGamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlayIce.m; path = Source/NewGamePlayIce.m; sourceTree = "<group>"; };
 		04ACABA2191921D20050D6C8 /* UserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserClass.h; path = Source/UserClass.h; sourceTree = "<group>"; };
@@ -146,15 +148,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9222E2B918734FF800A246C7 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		B737893C1807616C0076A88C /* Source */ = {
+		042E0825191A723E00851F3A /* GUI */ = {
 			isa = PBXGroup;
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
@@ -183,7 +177,32 @@
 				04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */,
 				042E0820191A366D00851F3A /* PlayerList.h */,
 				042E0821191A366D00851F3A /* PlayerList.m */,
+				042E0828191A8A7F00851F3A /* chala.mp3 */,
 				04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		042E0827191A724F00851F3A /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		9222E2B918734FF800A246C7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		B737893C1807616C0076A88C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				042E0827191A724F00851F3A /* Internet */,
+				042E0825191A723E00851F3A /* GUI */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -351,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042E0829191A8A7F00851F3A /* chala.mp3 in Resources */,
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,

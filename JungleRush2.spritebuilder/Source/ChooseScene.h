@@ -14,4 +14,5 @@
     size_t character; //1:Bear 2:Leo 3:Dog 4:Squirl
     CCSprite* _animal;
 }
+
 @end
