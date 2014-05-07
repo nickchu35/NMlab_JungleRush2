@@ -11,7 +11,7 @@
 @interface NewGamePlaySkyL : CCNode
 {
 CCPhysicsNode *_physicsNode;
-CCSprite *bear;
+CCSprite *animal;
 bool isHeadedLeft;
 }
 @end
