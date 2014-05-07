@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */; };
 		042E081E1919FA1200851F3A /* LoginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E081D1919FA1200851F3A /* LoginScene.m */; };
+		042E0822191A366D00851F3A /* PlayerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0821191A366D00851F3A /* PlayerList.m */; };
 		04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745F61190B88FE001C0B74 /* NewGamePlayIce.m */; };
 		04ACABA4191921D20050D6C8 /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABA3191921D20050D6C8 /* UserClass.m */; };
 		04ACABA6191924870050D6C8 /* TokyoDrift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */; };
@@ -70,6 +71,8 @@
 		042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePlayIce.m; path = Source/GamePlayIce.m; sourceTree = "<group>"; };
 		042E081C1919FA1200851F3A /* LoginScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginScene.h; path = Source/LoginScene.h; sourceTree = "<group>"; };
 		042E081D1919FA1200851F3A /* LoginScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginScene.m; path = Source/LoginScene.m; sourceTree = "<group>"; };
+		042E0820191A366D00851F3A /* PlayerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerList.h; path = Source/PlayerList.h; sourceTree = "<group>"; };
+		042E0821191A366D00851F3A /* PlayerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerList.m; path = Source/PlayerList.m; sourceTree = "<group>"; };
 		04745F60190B88FE001C0B74 /* NewGamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlayIce.h; path = Source/NewGamePlayIce.h; sourceTree = "<group>"; };
 		04745F61190B88FE001C0B74 /* NewGamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlayIce.m; path = Source/NewGamePlayIce.m; sourceTree = "<group>"; };
 		04ACABA2191921D20050D6C8 /* UserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserClass.h; path = Source/UserClass.h; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 				042E081D1919FA1200851F3A /* LoginScene.m */,
 				04ACABA919192C1F0050D6C8 /* PlayerLobby.h */,
 				04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */,
+				042E0820191A366D00851F3A /* PlayerList.h */,
+				042E0821191A366D00851F3A /* PlayerList.m */,
 				04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */,
 			);
 			name = Source;
@@ -374,6 +379,7 @@
 			files = (
 				042E081E1919FA1200851F3A /* LoginScene.m in Sources */,
 				04ACABA4191921D20050D6C8 /* UserClass.m in Sources */,
+				042E0822191A366D00851F3A /* PlayerList.m in Sources */,
 				042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */,
 				04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,

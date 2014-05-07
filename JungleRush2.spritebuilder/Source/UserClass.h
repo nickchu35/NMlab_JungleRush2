@@ -8,7 +8,8 @@
 
 #import "CCSprite.h"
 
-@interface UserClass : CCSprite
-@property size_t characterNum;  //有_characterNum變數 setCharacterNum characterNum function
+@interface UserClass : CCSprite{
+    size_t characterNum;
+}
 
 @end

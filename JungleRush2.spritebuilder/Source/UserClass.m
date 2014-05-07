@@ -10,4 +10,8 @@
 
 @implementation UserClass
 
+-(void)setCharacterNum:(size_t)num{
+    characterNum = num;
+}
+
 @end

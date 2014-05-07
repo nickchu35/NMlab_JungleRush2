@@ -13,16 +13,16 @@
         // tell this scene to accept touches
         self.userInteractionEnabled = TRUE;
         
-        bear = (CCSprite*)[CCBReader load:@"AnimalSprite/Bear"];
-        bear.position  = ccp(100,80);//ccp(self.contentSize.width/2,self.contentSize.height/2);
-        bear.scale = 0.3;
-        CCLOG(@"bear was created!");
-        [_physicsNode addChild:bear]; //換成physics家看看
+        animal = (CCSprite*)[CCBReader load:@"AnimalSprite/Bear"];
+        animal.position  = ccp(100,80);//ccp(self.contentSize.width/2,self.contentSize.height/2);
+        animal.scale = 0.3;
+        CCLOG(@"animal was created!");
+        [_physicsNode addChild:animal]; //換成physics家看看
         
         isHeadedLeft = false;
         
         // follow the bear
-        CCActionFollow *follow = [CCActionFollow actionWithTarget:bear worldBoundary:self.boundingBox];
+        CCActionFollow *follow = [CCActionFollow actionWithTarget:animal worldBoundary:self.boundingBox];
         [self runAction:follow];
         
         [[OALSimpleAudio sharedInstance] playBg:@"TokyoDrift.mp3" loop:YES];  //add music
@@ -32,12 +32,12 @@
     -(void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
         CGPoint touchLoc = [touch locationInNode:self];
         
-        if(touchLoc.x > bear.position.x && isHeadedLeft){
-            [bear setFlipX:false];
+        if(touchLoc.x > animal.position.x && isHeadedLeft){
+            [animal setFlipX:false];
             isHeadedLeft = false;
         }
-        if(touchLoc.x < bear.position.x && !isHeadedLeft){
-            [bear setFlipX:true];
+        if(touchLoc.x < animal.position.x && !isHeadedLeft){
+            [animal setFlipX:true];
             isHeadedLeft = true;
         }
         
@@ -46,7 +46,7 @@
         
         // Move our sprite to touch location
         CCActionMoveTo *actionMove = [CCActionMoveTo actionWithDuration:1.0f position:touchLoc];
-        [bear runAction:actionMove];
+        [animal runAction:actionMove];
     }
 
 
