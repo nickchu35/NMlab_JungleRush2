@@ -100,8 +100,6 @@
 		</dict>
 		<key>BearSprite</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
@@ -142,6 +140,13 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>LobbyBackground</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>MainBackground</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
@@ -158,8 +163,6 @@
 		<dict/>
 		<key>SquirlSprite</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>

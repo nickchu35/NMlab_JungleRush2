@@ -11,6 +11,7 @@
 		042E081E1919FA1200851F3A /* LoginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E081D1919FA1200851F3A /* LoginScene.m */; };
 		042E0822191A366D00851F3A /* PlayerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0821191A366D00851F3A /* PlayerList.m */; };
 		042E0829191A8A7F00851F3A /* chala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042E0828191A8A7F00851F3A /* chala.mp3 */; };
+		042E082D191A914D00851F3A /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E082C191A914D00851F3A /* blank.png */; };
 		04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745F61190B88FE001C0B74 /* NewGamePlayIce.m */; };
 		04ACABA4191921D20050D6C8 /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABA3191921D20050D6C8 /* UserClass.m */; };
 		04ACABA6191924870050D6C8 /* TokyoDrift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */; };
@@ -75,6 +76,7 @@
 		042E0820191A366D00851F3A /* PlayerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerList.h; path = Source/PlayerList.h; sourceTree = "<group>"; };
 		042E0821191A366D00851F3A /* PlayerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerList.m; path = Source/PlayerList.m; sourceTree = "<group>"; };
 		042E0828191A8A7F00851F3A /* chala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chala.mp3; sourceTree = "<group>"; };
+		042E082C191A914D00851F3A /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
 		04745F60190B88FE001C0B74 /* NewGamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlayIce.h; path = Source/NewGamePlayIce.h; sourceTree = "<group>"; };
 		04745F61190B88FE001C0B74 /* NewGamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlayIce.m; path = Source/NewGamePlayIce.m; sourceTree = "<group>"; };
 		04ACABA2191921D20050D6C8 /* UserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserClass.h; path = Source/UserClass.h; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */,
 				042E0820191A366D00851F3A /* PlayerList.h */,
 				042E0821191A366D00851F3A /* PlayerList.m */,
+				042E082C191A914D00851F3A /* blank.png */,
 				042E0828191A8A7F00851F3A /* chala.mp3 */,
 				04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */,
 			);
@@ -372,6 +375,7 @@
 			files = (
 				042E0829191A8A7F00851F3A /* chala.mp3 in Resources */,
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
+				042E082D191A914D00851F3A /* blank.png in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,

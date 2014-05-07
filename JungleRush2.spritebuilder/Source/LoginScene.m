@@ -9,16 +9,19 @@
 #import "LoginScene.h"
 #import "ChooseScene.h"
 #import "UserClass.h"
-
+#import "CCTextField.h"
 
 @implementation LoginScene
-
+-(void)didLoadFromCCB{
+    [_nameTextField setSelected:true];
+    [_nameTextField setVisible:false];
+}
 -(void)go{
     UserClass *user;
     [user setUserName:@"Nick"];
-    NSString *str = [user getUserName];
+    //NSString *str = [user getUserName];
     NSString *str2 = [_nameTextField string];
-    NSLog(@"%@",str);
+    //NSLog(@"%@",str);
     NSLog(@"%@",str2);
     
     

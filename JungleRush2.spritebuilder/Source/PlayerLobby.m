@@ -11,5 +11,10 @@
 @implementation PlayerLobby
 
 
+-(void)run{
+    CCScene *playScene = [CCBReader loadAsScene:@"NewGamePlaySkyL"];
+    [[CCDirector sharedDirector] replaceScene:playScene];
+}
+
 
 @end
