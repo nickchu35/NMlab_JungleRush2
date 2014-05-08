@@ -27,6 +27,7 @@
 
 #import "AppDelegate.h"
 #import "CCBuilderReader.h"
+#import "NetworkController.h"
 
 @implementation AppController
 
@@ -51,7 +52,7 @@
     
     // Do any extra configuration of Cocos2d here (the example line changes the pixel format for faster rendering, but with less colors)
     //[cocos2dSetup setObject:kEAGLColorFormatRGB565 forKey:CCConfigPixelFormat];
-    
+    [NetworkController sharedInstance];
     [self setupCocos2dWithOptions:cocos2dSetup];
     
     return YES;
@@ -59,7 +60,7 @@
 
 - (CCScene*) startScene
 {
-    [[OALSimpleAudio sharedInstance] playBg:@"chala.mp3" loop:YES];
+    [[OALSimpleAudio sharedInstance] playBg:@"chala.mp3" loop:YES];   //add bg music
     return [CCBReader loadAsScene:@"MainScene"];
 }
 

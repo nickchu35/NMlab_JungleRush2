@@ -9,11 +9,9 @@
 #import "CCNode.h"
 
 @interface LoginScene : CCNode{
-    CCTextField* _nameTextField;
-    CCTextField* _passwordTextField;
+
 }
 
-//@property CCTextField* nameTextField;
-//@property CCTextField* passwordTextField;
+
 
 @end

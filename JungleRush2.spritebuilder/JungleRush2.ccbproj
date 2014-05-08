@@ -135,12 +135,24 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>HelpBackground</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>LeoSprite</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>LobbyBackground</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>LoginBackground</key>
 		<dict>
 			<key>isDirty</key>
 			<true/>

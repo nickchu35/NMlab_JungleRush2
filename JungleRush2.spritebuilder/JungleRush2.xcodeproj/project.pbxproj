@@ -13,6 +13,11 @@
 		042E0829191A8A7F00851F3A /* chala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042E0828191A8A7F00851F3A /* chala.mp3 */; };
 		042E082D191A914D00851F3A /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E082C191A914D00851F3A /* blank.png */; };
 		042E0835191B313D00851F3A /* WaitingForRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0834191B313D00851F3A /* WaitingForRespond.m */; };
+		042E0856191B3AD800851F3A /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E084D191B3AD800851F3A /* Match.m */; };
+		042E0857191B3AD800851F3A /* MessageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E084F191B3AD800851F3A /* MessageReader.m */; };
+		042E0858191B3AD800851F3A /* MessageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0851191B3AD800851F3A /* MessageWriter.m */; };
+		042E0859191B3AD800851F3A /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0853191B3AD800851F3A /* NetworkController.m */; };
+		042E085A191B3AD800851F3A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0855191B3AD800851F3A /* Player.m */; };
 		04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745F61190B88FE001C0B74 /* NewGamePlayIce.m */; };
 		04ACABA4191921D20050D6C8 /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABA3191921D20050D6C8 /* UserClass.m */; };
 		04ACABA6191924870050D6C8 /* TokyoDrift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */; };
@@ -80,6 +85,16 @@
 		042E082C191A914D00851F3A /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
 		042E0833191B313D00851F3A /* WaitingForRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitingForRespond.h; path = Source/WaitingForRespond.h; sourceTree = "<group>"; };
 		042E0834191B313D00851F3A /* WaitingForRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingForRespond.m; path = Source/WaitingForRespond.m; sourceTree = "<group>"; };
+		042E084C191B3AD800851F3A /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Match.h; path = Source/Internet/Match.h; sourceTree = "<group>"; };
+		042E084D191B3AD800851F3A /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Match.m; path = Source/Internet/Match.m; sourceTree = "<group>"; };
+		042E084E191B3AD800851F3A /* MessageReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageReader.h; path = Source/Internet/MessageReader.h; sourceTree = "<group>"; };
+		042E084F191B3AD800851F3A /* MessageReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageReader.m; path = Source/Internet/MessageReader.m; sourceTree = "<group>"; };
+		042E0850191B3AD800851F3A /* MessageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageWriter.h; path = Source/Internet/MessageWriter.h; sourceTree = "<group>"; };
+		042E0851191B3AD800851F3A /* MessageWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageWriter.m; path = Source/Internet/MessageWriter.m; sourceTree = "<group>"; };
+		042E0852191B3AD800851F3A /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkController.h; path = Source/Internet/NetworkController.h; sourceTree = "<group>"; };
+		042E0853191B3AD800851F3A /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkController.m; path = Source/Internet/NetworkController.m; sourceTree = "<group>"; };
+		042E0854191B3AD800851F3A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Source/Internet/Player.h; sourceTree = "<group>"; };
+		042E0855191B3AD800851F3A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Source/Internet/Player.m; sourceTree = "<group>"; };
 		04745F60190B88FE001C0B74 /* NewGamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlayIce.h; path = Source/NewGamePlayIce.h; sourceTree = "<group>"; };
 		04745F61190B88FE001C0B74 /* NewGamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlayIce.m; path = Source/NewGamePlayIce.m; sourceTree = "<group>"; };
 		04ACABA2191921D20050D6C8 /* UserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserClass.h; path = Source/UserClass.h; sourceTree = "<group>"; };
@@ -194,6 +209,16 @@
 		042E0827191A724F00851F3A /* Internet */ = {
 			isa = PBXGroup;
 			children = (
+				042E084C191B3AD800851F3A /* Match.h */,
+				042E084D191B3AD800851F3A /* Match.m */,
+				042E084E191B3AD800851F3A /* MessageReader.h */,
+				042E084F191B3AD800851F3A /* MessageReader.m */,
+				042E0850191B3AD800851F3A /* MessageWriter.h */,
+				042E0851191B3AD800851F3A /* MessageWriter.m */,
+				042E0852191B3AD800851F3A /* NetworkController.h */,
+				042E0853191B3AD800851F3A /* NetworkController.m */,
+				042E0854191B3AD800851F3A /* Player.h */,
+				042E0855191B3AD800851F3A /* Player.m */,
 			);
 			name = Internet;
 			sourceTree = "<group>";
@@ -409,10 +434,13 @@
 				042E081E1919FA1200851F3A /* LoginScene.m in Sources */,
 				04ACABA4191921D20050D6C8 /* UserClass.m in Sources */,
 				042E0822191A366D00851F3A /* PlayerList.m in Sources */,
+				042E0857191B3AD800851F3A /* MessageReader.m in Sources */,
+				042E085A191B3AD800851F3A /* Player.m in Sources */,
 				042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */,
 				04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				042E0858191B3AD800851F3A /* MessageWriter.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				04D8772A19155B5200721EE4 /* NewGamePlaySky.m in Sources */,
 				042E0835191B313D00851F3A /* WaitingForRespond.m in Sources */,
@@ -421,6 +449,8 @@
 				04ACABAB19192C1F0050D6C8 /* PlayerLobby.m in Sources */,
 				04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */,
 				04B10837190AC369000032D9 /* HelpScene.m in Sources */,
+				042E0859191B3AD800851F3A /* NetworkController.m in Sources */,
+				042E0856191B3AD800851F3A /* Match.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

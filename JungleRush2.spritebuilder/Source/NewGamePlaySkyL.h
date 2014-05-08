@@ -8,6 +8,7 @@
 
 #import "CCNode.h"
 
+
 @interface NewGamePlaySkyL : CCNode
 {
 CCPhysicsNode *_physicsNode;

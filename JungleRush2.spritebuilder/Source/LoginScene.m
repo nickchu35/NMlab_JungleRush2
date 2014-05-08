@@ -13,16 +13,11 @@
 
 @implementation LoginScene
 -(void)didLoadFromCCB{
-    [_nameTextField setSelected:true];
-    [_nameTextField setVisible:false];
+
 }
--(void)go{
-    UserClass *user;
-    [user setUserName:@"Nick"];
-    //NSString *str = [user getUserName];
-    NSString *str2 = [_nameTextField string];
-    //NSLog(@"%@",str);
-    NSLog(@"%@",str2);
+
+
+-(void)login{
     
     
     
@@ -30,6 +25,12 @@
     ChooseScene *nextScene;
     nextScene = [CCBReader loadAsScene:@"ChooseScene"];
     [[CCDirector sharedDirector] replaceScene:nextScene];
+}
+
+
+-(void)back{
+    CCScene *mainScene = [CCBReader loadAsScene:@"MainScene"];
+    [[CCDirector sharedDirector] replaceScene:mainScene];
 }
 
 
