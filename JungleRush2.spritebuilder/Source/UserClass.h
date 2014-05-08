@@ -10,6 +10,13 @@
 
 @interface UserClass : CCSprite{
     size_t characterNum;
+    NSString *userName;
+    NSString *userPassword;
 }
+
+-(void)setCharacterNum:(size_t)num;
+-(void)setUserName:(NSString*)name;
+-(NSString*)getUserName;
+-(void)setUserPassword:(NSString*)pass;
 
 @end

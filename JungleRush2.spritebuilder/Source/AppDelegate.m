@@ -60,6 +60,7 @@
 
 - (CCScene*) startScene
 {
+    [[OALSimpleAudio sharedInstance] playBg:@"chala.mp3" loop:YES];
     return [CCBReader loadAsScene:@"MainScene"];
 }
 

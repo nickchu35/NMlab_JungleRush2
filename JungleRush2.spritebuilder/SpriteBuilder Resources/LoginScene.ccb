@@ -92,7 +92,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string>_usernameTextField</string>
+							<string>_nameTextField</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -273,6 +273,8 @@
 						<integer>17</integer>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>

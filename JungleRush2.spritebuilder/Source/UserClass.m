@@ -14,4 +14,16 @@
     characterNum = num;
 }
 
+-(void)setUserName:(NSString*)name{
+   userName = name;
+}
+
+-(void)setUserPassword:(NSString*)pass{
+    userPassword = pass;
+}
+
+-(NSString*)getUserName{
+    return userName;
+}
+
 @end

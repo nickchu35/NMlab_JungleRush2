@@ -7,12 +7,28 @@
 //
 
 #import "LoginScene.h"
+#import "ChooseScene.h"
+#import "UserClass.h"
+
 
 @implementation LoginScene
 
 -(void)go{
-    CCScene *chooseScene = [CCBReader loadAsScene:@"ChooseScene"];
-    [[CCDirector sharedDirector] replaceScene:chooseScene];
+    UserClass *user;
+    [user setUserName:@"Nick"];
+    NSString *str = [user getUserName];
+    NSString *str2 = [_nameTextField string];
+    NSLog(@"%@",str);
+    NSLog(@"%@",str2);
+    
+    
+    
+    
+    ChooseScene *nextScene;
+    nextScene = [CCBReader loadAsScene:@"ChooseScene"];
+    [[CCDirector sharedDirector] replaceScene:nextScene];
 }
+
+
 
 @end
