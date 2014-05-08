@@ -22,6 +22,7 @@
 - (void) timeup{
     CCScene *lobbyScene = [CCBReader loadAsScene:@"PlayerLobby"];
     [[CCDirector sharedDirector] replaceScene:lobbyScene];
+    [self stopTimer];
 }
 
 - (void) stopTimer{

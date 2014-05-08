@@ -10,7 +10,7 @@
 
 @interface PlayerLobby : CCNode{
     NSMutableArray *playerArray;
-    CCNode* messageboxNode;
+    CCNode* _messageboxNode;
     
     CCNode* _p1NameNode;
     CCNode* _p2NameNode;
