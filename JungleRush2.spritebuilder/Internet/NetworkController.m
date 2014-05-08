@@ -109,7 +109,20 @@ static NetworkController *sharedController = nil;
     if (msgType == MESSAGE_NOT_IN_MATCH) {
         [self setState:NetworkStateReceivedMatchStatus];
         [_delegate setNotInMatch];
+        return;
     }
+    if (msgType == MESSAGE_NOTIFY_NEW_PLAYER) {
+        NSString *playerId = [reader readString];
+        NSString *alias = [reader readString];
+        [self addNewPlayer:playerId name:alias];
+        return;
+    }
+    if (msgType == MESSAGE_INVITE_PLAYER) {
+        NSString *playerId = [reader readString];
+        //TODO needs comformation from user
+        
+    }
+    
 }
 
 - (void)sendData:(NSData *)data {
@@ -146,6 +159,28 @@ static NetworkController *sharedController = nil;
     //
     
     [writer writeByte:continueMatch];
+    [self sendData:writer.data];
+}
+
+- (void)sendInvitation:(NSString* )playerId{
+    MessageWriter * writer = [[MessageWriter alloc] init];
+    [writer writeByte:MESSAGE_INVITE_PLAYER];
+    [writer writeString:playerId];
+    [self sendData:writer.data];
+}
+
+- (void)sendComformaton:(NSString* )playerId{
+    MessageWriter * writer = [[MessageWriter alloc] init];
+    [writer writeByte:MESSAGE_CONFORM_INVITTATION];
+    [writer writeInt:1];
+    [writer writeString:playerId];
+    [self sendData:writer.data];
+}
+
+- (void)sendRejection:(NSString* )playerId{
+    MessageWriter * writer = [[MessageWriter alloc] init];
+    [writer writeByte:MESSAGE_REJECT_INVITATION];
+    [writer writeString:playerId];
     [self sendData:writer.data];
 }
 
@@ -358,6 +393,7 @@ static NetworkController *sharedController = nil;
 - (void)addNewPlayer:(NSString*)playerId name:(NSString*)alias{
     Player* player = [[Player alloc] initWithPlayerId:playerId alias:alias posX:0];
     [_totalPlayers addObject:player];
+    //TODO: display new player
 }
 
 - (void)deletePlayer:(NSString*)playerId name:(NSString*)alias{

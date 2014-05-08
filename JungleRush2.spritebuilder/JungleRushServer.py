@@ -4,13 +4,18 @@ from struct import *
  
 MESSAGE_PLAYER_CONNECTED = 0
 MESSAGE_NOT_IN_MATCH = 1
-MESSAGE_START_MATCH = 2
-MESSAGE_MATCH_STARTED = 3
-MESSAGE_MOVED_SELF = 4
-MESSAGE_PLAYER_MOVED = 5
-MESSAGE_GAME_OVER = 6
-MESSAGE_RESTART_MATCH = 7
-MESSAGE_NOTIFY_READY = 8
+MESSAGE_NOTIFY_NEW_PLAYER = 2
+MESSAGE_NOTIFY_PLAYER_OFF = 3
+MESSAGE_INVITE_PLAYER = 4
+MESSAGE_CONFORM_INVITTATION = 5
+MESSAGE_REJECT_INVITATION = 6
+MESSAGE_START_MATCH = 7
+MESSAGE_MATCH_STARTED = 8
+MESSAGE_MOVED_SELF = 9
+MESSAGE_PLAYER_MOVED = 10
+MESSAGE_GAME_OVER = 11
+MESSAGE_RESTART_MATCH = 12
+MESSAGE_NOTIFY_READY = 13
  
 PLAYER_WIN_X = 445
  
@@ -137,9 +142,18 @@ class RaceFactory(Factory):
                         existingPlayer.match.quit()
                 else:
                     existingPlayer.protocol.sendNotInMatch()
+                for otherPlayer in self.players:
+                    if otherPlayer.playerId != playerId:
+                        if otherPlayer.protocol != None:
+                            existingPlayer.protocol.sendOnlinePlayer(otherPlayer.playerId, otherPlayer.alias)
+                            otherPlayer.protocol.sendOnlinePlayer(existingPlayer.playerId, existingPlayer.alias)
                 return
         newPlayer = RacePlayer(protocol, playerId, alias)
         protocol.player = newPlayer
+        for existingPlayer in self.players:
+            if existingPlayer.protocol != None:
+                newPlayer.protocol.sendOnlinePlayer(existingPlayer.playerId, existingPlayer.alias)
+                existingPlayer.protocol.sendOnlinePlayer(newPlayer.playerId, newPlayer.alias)
         self.players.append(newPlayer)
         newPlayer.protocol.sendNotInMatch()
 
@@ -184,6 +198,14 @@ class RaceProtocol(Protocol):
         message = MessageWriter()
         message.writeByte(MESSAGE_NOT_IN_MATCH)
         self.log("Sent MESSAGE_NOT_IN_MATCH")
+        self.sendMessage(message)
+
+    def sendOnlinePlayer(self, playerIndex, alias):
+        message = MessageWriter()
+        message.writeByte(MESSAGE_NOTIFY_NEW_PLAYER)
+        message.writeString(playerIndex)
+        message.writeString(alias)
+        self.log("Send MESSAGE_NOTIFY_NEW_PLAYER")
         self.sendMessage(message)
 
     def playerConnected(self, message):
