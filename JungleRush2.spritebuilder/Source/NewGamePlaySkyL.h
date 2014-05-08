@@ -7,11 +7,19 @@
 //
 
 #import "CCNode.h"
+#import "NetworkController.h"
+
+@class Match;
 
 @interface NewGamePlaySkyL : CCNode
 {
-CCPhysicsNode *_physicsNode;
-CCSprite *animal;
-bool isHeadedLeft;
+    CCPhysicsNode *_physicsNode;
+    CCSprite *animal;
+    bool isHeadedLeft;
+    Match *match;
+    CCLabelBMFont *player1Label;
+    CCLabelBMFont *player2Label;
 }
+
+@property (retain) Match *match;
 @end

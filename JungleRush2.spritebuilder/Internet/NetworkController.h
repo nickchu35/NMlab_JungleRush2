@@ -25,9 +25,12 @@ typedef enum {
     
 } NetworkState;
 
+@class Match;
+
 @protocol NetworkControllerDelegate
 - (void)stateChanged:(NetworkState)state;
 - (void)setNotInMatch;
+- (void)matchStarted:(Match *)match;
 @end
 
 @interface NetworkController : NSObject <NSStreamDelegate>{

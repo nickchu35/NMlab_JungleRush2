@@ -169,6 +169,14 @@ class RaceFactory(Factory):
             matchPlayer.match = match
             matchPlayer.protocol.sendMatchStarted(match)
 
+    def sendInviteToOne(self, playerId, message):
+        objective = message.readString()
+        for existingPlayer in self.players:
+            if existingPlayer == objective:
+                if existingPlayer.match == None && existingPlayer.protocol != None:
+                    existingPlayer.protocol.sendInviteFromOther(playerId)
+                    return
+
 
 class RaceProtocol(Protocol):
  
@@ -235,6 +243,10 @@ class RaceProtocol(Protocol):
             return self.restartMatch(message)
         if messageId == MESSAGE_NOTIFY_READY:
             return self.notifyReady(message)
+        if messageId == MESSAGE_INVITE_PLAYER:
+            return self.factory.sendInviteToOne(self.player, message)
+        if messageId == MESSAGE_CONFORM_INVITTATION:
+
  
         self.log("Unexpected message: %d" % (messageId))
  
@@ -256,6 +268,13 @@ class RaceProtocol(Protocol):
             message = MessageReader(messageString)
             self.processMessage(message)
 
+    def sendInviteFromOther(self, playerIndex):
+        message = MessageWriter()
+        message.writeByte(MESSAGE_INVITE_PLAYER)
+        message.writeString(playerIndex)
+        self.log("%s send invite to you" % str(playerIndex))
+        message.sendMessage(message)
+
     def sendMatchStarted(self, match):
         message = MessageWriter()
         message.writeByte(MESSAGE_MATCH_STARTED)
@@ -264,7 +283,7 @@ class RaceProtocol(Protocol):
         self.sendMessage(message)
  
     def startMatch(self, message):
-        numPlayers = message.readByte()
+        numPlayers = message.readInt()
         playerIds = []
         for i in range(0, numPlayers):
             playerId = message.readString()

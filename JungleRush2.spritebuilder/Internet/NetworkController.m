@@ -8,6 +8,7 @@
 #import "NetworkController.h"
 #import "MessageWriter.h"
 #import "MessageReader.h"
+#import "Match.h"
 #import "Player.h"
 
 @interface NetworkController (PrivateMethods)
@@ -121,6 +122,23 @@ static NetworkController *sharedController = nil;
         NSString *playerId = [reader readString];
         //TODO needs comformation from user
         
+        return;
+    }
+    if (msgType == MESSAGE_MATCH_STARTED) {
+        [self setState:NetworkStateMatchActive];
+        unsigned char matchState = [reader readByte];
+        NSMutableArray * players = [NSMutableArray array];
+        unsigned char numPlayers = [reader readByte];
+        for(unsigned char i = 0; i < numPlayers; ++i) {
+            NSString *playerId = [reader readString];
+            NSString *alias = [reader readString];
+            int posX = [reader readInt];
+            Player *player = [[Player alloc] initWithPlayerId:playerId alias:alias posX:posX];
+            [players addObject:player];
+        }
+        Match * match = [[Match alloc] initWithState:matchState players:players];
+        [_delegate matchStarted:match];
+        return;
     }
     
 }
