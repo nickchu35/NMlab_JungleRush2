@@ -11,5 +11,14 @@
 @interface PlayerLobby : CCNode{
     NSMutableArray *playerArray;
     CCNode* messageboxNode;
+    
+    CCNode* _p1NameNode;
+    CCNode* _p2NameNode;
+    CCNode* _p3NameNode;
+    CCNode* _p4NameNode;
+    CCNode* _p1AnimalNode;
+    CCNode* _p2AnimalNode;
+    CCNode* _p3AnimalNode;
+    CCNode* _p4AnimalNode;
 }
 @end

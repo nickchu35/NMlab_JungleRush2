@@ -16,5 +16,9 @@
     [[CCDirector sharedDirector] replaceScene:playScene];
 }
 
+-(void)back{
+    CCScene *chooseScene = [CCBReader loadAsScene:@"ChooseScene"];
+    [[CCDirector sharedDirector] replaceScene:chooseScene];
+}
 
 @end
