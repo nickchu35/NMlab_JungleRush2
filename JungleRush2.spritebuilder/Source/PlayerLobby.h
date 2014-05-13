@@ -10,7 +10,7 @@
 
 @interface PlayerLobby : CCNode{
     NSMutableArray *playerArray;
-    CCNode* messageboxNode;
+    CCNode* _messageboxNode;
     
     CCNode* _p1NameNode;
     CCNode* _p2NameNode;
@@ -20,5 +20,15 @@
     CCNode* _p2AnimalNode;
     CCNode* _p3AnimalNode;
     CCNode* _p4AnimalNode;
+    
+    CCLayoutBox* _layoutBox;
+    
+    
+    CCSprite *_myAnimal;
+    CCSprite *_animal1;
+    
+    
 }
++(id) sharedInstance;
+-(void) changeScene:(CCTime) dt;
 @end

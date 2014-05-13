@@ -18,9 +18,10 @@
 		<string>Assets.plist</string>
 		<string>DogSprite.plist</string>
 		<string>BearSprite.plist</string>
+		<string>LoginBackground.plist</string>
+		<string>HelpBackground.plist</string>
 		<string>SkyBackground.plist</string>
 		<string>LeoSprite.plist</string>
-		<string>Buttons.plist</string>
 		<string>LobbyBackground.plist</string>
 		<string>ChooseAssets.plist</string>
 	</array>

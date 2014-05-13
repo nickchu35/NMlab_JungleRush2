@@ -11,25 +11,30 @@
 #import "UserClass.h"
 #import "CCTextField.h"
 
+
 @implementation LoginScene
+
 -(void)didLoadFromCCB{
-    [_nameTextField setSelected:true];
-    [_nameTextField setVisible:false];
 }
--(void)go{
-    UserClass *user;
-    [user setUserName:@"Nick"];
-    //NSString *str = [user getUserName];
-    NSString *str2 = [_nameTextField string];
-    //NSLog(@"%@",str);
-    NSLog(@"%@",str2);
+
+
+-(void)login{
+   // [NetworkController sharedInstance].myAlias = [_accountField string];
+   // [NetworkController sharedInstance].myPlayerId = [_pwdField string];
     
+    [[NetworkController sharedInstance].myPlayer initWithPlayerId:[_pwdField string] alias:[_accountField  string]];
     
+    [[NetworkController sharedInstance] sendPlayerConnected:true];
     
-    
-    ChooseScene *nextScene;
+    CCScene *nextScene;
     nextScene = [CCBReader loadAsScene:@"ChooseScene"];
     [[CCDirector sharedDirector] replaceScene:nextScene];
+}
+
+
+-(void)back{
+    CCScene *mainScene = [CCBReader loadAsScene:@"MainScene"];
+    [[CCDirector sharedDirector] replaceScene:mainScene];
 }
 
 

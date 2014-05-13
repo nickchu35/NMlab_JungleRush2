@@ -7,6 +7,7 @@
 //
 
 #import "ChooseScene.h"
+#import "Player.h"
 
 @implementation ChooseScene
 
@@ -19,6 +20,26 @@
 }
 
 - (void)start {
+    
+    //set the chosen character
+    AnimalType theType;
+    switch (character) {
+        case 1:
+            theType=BEAR;
+            break;
+        case 2:
+            theType=LEO;
+            break;
+        case 3:
+            theType=DOG;
+            break;
+        default:
+            theType=SQUIRL;
+            break;
+    }
+    
+    [NetworkController sharedInstance].myPlayer.type=theType;
+    
     CCScene *lobbyScene = [CCBReader loadAsScene:@"PlayerLobby"];
     [[CCDirector sharedDirector] replaceScene:lobbyScene];
 }
@@ -69,6 +90,32 @@
     _animal.scale = _size;
     CCLOG(@"animal was created!");
     [_spriteNode addChild:_animal];
+}
+
+-(void)stateChanged:(NetworkState)state {
+    switch(state) {
+        case NetworkStateNotAvailable:
+            NSLog(@"Not Available");
+            break;
+        case NetworkStatePendingAuthentication:
+            NSLog(@"Pending Authentication");
+            break;
+        case NetworkStateAuthenticated:
+            NSLog(@"Authenticated");
+            break;
+        case NetworkStateConnectingToServer:
+            NSLog(@"Connecting to Server");
+            break;
+        case NetworkStateConnected:
+            NSLog(@"Connected");
+            break;
+        case NetworkStatePendingMatchStatus:
+            NSLog(@"Pending Match Status");
+            break;
+        case NetworkStateReceivedMatchStatus:
+            NSLog(@"Received Match Status");
+            break;
+    }
 }
 
 @end

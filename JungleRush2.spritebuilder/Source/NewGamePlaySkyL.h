@@ -7,11 +7,37 @@
 //
 
 #import "CCNode.h"
+#import "Player.h"
+#import "Match.h"
+#import  <CoreMotion/CoreMotion.h>
+
+@class Match;
 
 @interface NewGamePlaySkyL : CCNode
 {
-CCPhysicsNode *_physicsNode;
-CCSprite *animal;
-bool isHeadedLeft;
+    CCPhysicsNode *_physicsNode;
+    
+    CCSprite* _animal;
+    CCSprite* _other;
+    
+    Player* _p1;
+    Player* _p2;
+    
+    Match* _match;
+
+    
+    int absTime;
+    int timeInterval;
+    NSTimeInterval jumpTime;
+    BOOL isOnAir;
+    
+    
 }
+
+@property (nonatomic, retain) CMMotionManager *motionManager;
+@property (retain) Match *match;
+@property (retain) Player *p1;
+@property (retain) Player *p2;
+
 @end
+

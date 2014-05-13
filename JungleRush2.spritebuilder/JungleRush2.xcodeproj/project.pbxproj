@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */; };
 		042E081E1919FA1200851F3A /* LoginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E081D1919FA1200851F3A /* LoginScene.m */; };
-		042E0822191A366D00851F3A /* PlayerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0821191A366D00851F3A /* PlayerList.m */; };
 		042E0829191A8A7F00851F3A /* chala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042E0828191A8A7F00851F3A /* chala.mp3 */; };
 		042E082D191A914D00851F3A /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E082C191A914D00851F3A /* blank.png */; };
 		042E0835191B313D00851F3A /* WaitingForRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0834191B313D00851F3A /* WaitingForRespond.m */; };
-		04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745F61190B88FE001C0B74 /* NewGamePlayIce.m */; };
+		042E0856191B3AD800851F3A /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E084D191B3AD800851F3A /* Match.m */; };
+		042E0857191B3AD800851F3A /* MessageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E084F191B3AD800851F3A /* MessageReader.m */; };
+		042E0858191B3AD800851F3A /* MessageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0851191B3AD800851F3A /* MessageWriter.m */; };
+		042E0859191B3AD800851F3A /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0853191B3AD800851F3A /* NetworkController.m */; };
+		042E085A191B3AD800851F3A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E0855191B3AD800851F3A /* Player.m */; };
+		045EE4161920C53E00E4FC16 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045EE4151920C53E00E4FC16 /* CoreMotion.framework */; };
 		04ACABA4191921D20050D6C8 /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABA3191921D20050D6C8 /* UserClass.m */; };
 		04ACABA6191924870050D6C8 /* TokyoDrift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */; };
 		04ACABAB19192C1F0050D6C8 /* PlayerLobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */; };
 		04B1082B190A4D3B000032D9 /* OptionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1082A190A4D3B000032D9 /* OptionScene.m */; };
 		04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10831190A4DF8000032D9 /* ChooseScene.m */; };
 		04B10837190AC369000032D9 /* HelpScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10836190AC369000032D9 /* HelpScene.m */; };
-		04D8772A19155B5200721EE4 /* NewGamePlaySky.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8772919155B5200721EE4 /* NewGamePlaySky.m */; };
 		04D8772F191655E100721EE4 /* NewGamePlaySkyL.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8772E191655E100721EE4 /* NewGamePlaySkyL.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -70,18 +72,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042D95EC190A3B9D00ED6B54 /* GamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayIce.h; path = Source/GamePlayIce.h; sourceTree = "<group>"; };
-		042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePlayIce.m; path = Source/GamePlayIce.m; sourceTree = "<group>"; };
 		042E081C1919FA1200851F3A /* LoginScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginScene.h; path = Source/LoginScene.h; sourceTree = "<group>"; };
 		042E081D1919FA1200851F3A /* LoginScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginScene.m; path = Source/LoginScene.m; sourceTree = "<group>"; };
-		042E0820191A366D00851F3A /* PlayerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerList.h; path = Source/PlayerList.h; sourceTree = "<group>"; };
-		042E0821191A366D00851F3A /* PlayerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerList.m; path = Source/PlayerList.m; sourceTree = "<group>"; };
 		042E0828191A8A7F00851F3A /* chala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chala.mp3; sourceTree = "<group>"; };
 		042E082C191A914D00851F3A /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
 		042E0833191B313D00851F3A /* WaitingForRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitingForRespond.h; path = Source/WaitingForRespond.h; sourceTree = "<group>"; };
 		042E0834191B313D00851F3A /* WaitingForRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingForRespond.m; path = Source/WaitingForRespond.m; sourceTree = "<group>"; };
-		04745F60190B88FE001C0B74 /* NewGamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlayIce.h; path = Source/NewGamePlayIce.h; sourceTree = "<group>"; };
-		04745F61190B88FE001C0B74 /* NewGamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlayIce.m; path = Source/NewGamePlayIce.m; sourceTree = "<group>"; };
+		042E084C191B3AD800851F3A /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Match.h; path = Source/Internet/Match.h; sourceTree = "<group>"; };
+		042E084D191B3AD800851F3A /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Match.m; path = Source/Internet/Match.m; sourceTree = "<group>"; };
+		042E084E191B3AD800851F3A /* MessageReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageReader.h; path = Source/Internet/MessageReader.h; sourceTree = "<group>"; };
+		042E084F191B3AD800851F3A /* MessageReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageReader.m; path = Source/Internet/MessageReader.m; sourceTree = "<group>"; };
+		042E0850191B3AD800851F3A /* MessageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageWriter.h; path = Source/Internet/MessageWriter.h; sourceTree = "<group>"; };
+		042E0851191B3AD800851F3A /* MessageWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageWriter.m; path = Source/Internet/MessageWriter.m; sourceTree = "<group>"; };
+		042E0852191B3AD800851F3A /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkController.h; path = Source/Internet/NetworkController.h; sourceTree = "<group>"; };
+		042E0853191B3AD800851F3A /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkController.m; path = Source/Internet/NetworkController.m; sourceTree = "<group>"; };
+		042E0854191B3AD800851F3A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Source/Internet/Player.h; sourceTree = "<group>"; };
+		042E0855191B3AD800851F3A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Source/Internet/Player.m; sourceTree = "<group>"; };
+		045EE4151920C53E00E4FC16 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		04ACABA2191921D20050D6C8 /* UserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserClass.h; path = Source/UserClass.h; sourceTree = "<group>"; };
 		04ACABA3191921D20050D6C8 /* UserClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserClass.m; path = Source/UserClass.m; sourceTree = "<group>"; };
 		04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TokyoDrift.mp3; sourceTree = "<group>"; };
@@ -93,8 +100,6 @@
 		04B10831190A4DF8000032D9 /* ChooseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseScene.m; path = Source/ChooseScene.m; sourceTree = "<group>"; };
 		04B10835190AC369000032D9 /* HelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpScene.h; path = Source/HelpScene.h; sourceTree = "<group>"; };
 		04B10836190AC369000032D9 /* HelpScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpScene.m; path = Source/HelpScene.m; sourceTree = "<group>"; };
-		04D8772819155B5200721EE4 /* NewGamePlaySky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlaySky.h; path = Source/NewGamePlaySky.h; sourceTree = "<group>"; };
-		04D8772919155B5200721EE4 /* NewGamePlaySky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlaySky.m; path = Source/NewGamePlaySky.m; sourceTree = "<group>"; };
 		04D8772D191655E100721EE4 /* NewGamePlaySkyL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlaySkyL.h; path = Source/NewGamePlaySkyL.h; sourceTree = "<group>"; };
 		04D8772E191655E100721EE4 /* NewGamePlaySkyL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlaySkyL.m; path = Source/NewGamePlaySkyL.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
@@ -137,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045EE4161920C53E00E4FC16 /* CoreMotion.framework in Frameworks */,
 				B737898A1807642B0076A88C /* libcocos2d.a in Frameworks */,
 				B77F1B3217B978D7009739AE /* QuartzCore.framework in Frameworks */,
 				B77F1B3417B978D7009739AE /* OpenGLES.framework in Frameworks */,
@@ -160,18 +166,12 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
-				042D95EC190A3B9D00ED6B54 /* GamePlayIce.h */,
-				042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */,
 				04B10829190A4D3B000032D9 /* OptionScene.h */,
 				04B1082A190A4D3B000032D9 /* OptionScene.m */,
 				04B10830190A4DF8000032D9 /* ChooseScene.h */,
 				04B10831190A4DF8000032D9 /* ChooseScene.m */,
-				04745F60190B88FE001C0B74 /* NewGamePlayIce.h */,
-				04745F61190B88FE001C0B74 /* NewGamePlayIce.m */,
 				04B10835190AC369000032D9 /* HelpScene.h */,
 				04B10836190AC369000032D9 /* HelpScene.m */,
-				04D8772819155B5200721EE4 /* NewGamePlaySky.h */,
-				04D8772919155B5200721EE4 /* NewGamePlaySky.m */,
 				04D8772D191655E100721EE4 /* NewGamePlaySkyL.h */,
 				04D8772E191655E100721EE4 /* NewGamePlaySkyL.m */,
 				04ACABA2191921D20050D6C8 /* UserClass.h */,
@@ -182,8 +182,6 @@
 				04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */,
 				042E0833191B313D00851F3A /* WaitingForRespond.h */,
 				042E0834191B313D00851F3A /* WaitingForRespond.m */,
-				042E0820191A366D00851F3A /* PlayerList.h */,
-				042E0821191A366D00851F3A /* PlayerList.m */,
 				042E082C191A914D00851F3A /* blank.png */,
 				042E0828191A8A7F00851F3A /* chala.mp3 */,
 				04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */,
@@ -194,6 +192,16 @@
 		042E0827191A724F00851F3A /* Internet */ = {
 			isa = PBXGroup;
 			children = (
+				042E084C191B3AD800851F3A /* Match.h */,
+				042E084D191B3AD800851F3A /* Match.m */,
+				042E084E191B3AD800851F3A /* MessageReader.h */,
+				042E084F191B3AD800851F3A /* MessageReader.m */,
+				042E0850191B3AD800851F3A /* MessageWriter.h */,
+				042E0851191B3AD800851F3A /* MessageWriter.m */,
+				042E0852191B3AD800851F3A /* NetworkController.h */,
+				042E0853191B3AD800851F3A /* NetworkController.m */,
+				042E0854191B3AD800851F3A /* Player.h */,
+				042E0855191B3AD800851F3A /* Player.m */,
 			);
 			name = Internet;
 			sourceTree = "<group>";
@@ -267,6 +275,7 @@
 		B77F1B3017B978D7009739AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				045EE4151920C53E00E4FC16 /* CoreMotion.framework */,
 				B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */,
 				B77F1B3117B978D7009739AE /* QuartzCore.framework */,
 				B77F1B3317B978D7009739AE /* OpenGLES.framework */,
@@ -408,19 +417,20 @@
 			files = (
 				042E081E1919FA1200851F3A /* LoginScene.m in Sources */,
 				04ACABA4191921D20050D6C8 /* UserClass.m in Sources */,
-				042E0822191A366D00851F3A /* PlayerList.m in Sources */,
-				042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */,
+				042E0857191B3AD800851F3A /* MessageReader.m in Sources */,
+				042E085A191B3AD800851F3A /* Player.m in Sources */,
 				04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				042E0858191B3AD800851F3A /* MessageWriter.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
-				04D8772A19155B5200721EE4 /* NewGamePlaySky.m in Sources */,
 				042E0835191B313D00851F3A /* WaitingForRespond.m in Sources */,
 				04B1082B190A4D3B000032D9 /* OptionScene.m in Sources */,
 				04D8772F191655E100721EE4 /* NewGamePlaySkyL.m in Sources */,
 				04ACABAB19192C1F0050D6C8 /* PlayerLobby.m in Sources */,
-				04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */,
 				04B10837190AC369000032D9 /* HelpScene.m in Sources */,
+				042E0859191B3AD800851F3A /* NetworkController.m in Sources */,
+				042E0856191B3AD800851F3A /* Match.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

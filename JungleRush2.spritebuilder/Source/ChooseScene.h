@@ -7,8 +7,9 @@
 //
 
 #import "CCNode.h"
+#import "NetworkController.h"
 
-@interface ChooseScene : CCNode
+@interface ChooseScene : CCNode <NetworkControllerDelegate>
 {
     CCNode* _spriteNode;
     size_t character; //1:Bear 2:Leo 3:Dog 4:Squirl

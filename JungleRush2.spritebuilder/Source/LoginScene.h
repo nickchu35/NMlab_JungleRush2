@@ -7,13 +7,13 @@
 //
 
 #import "CCNode.h"
+#import "NetworkController.h"
 
 @interface LoginScene : CCNode{
-    CCTextField* _nameTextField;
-    CCTextField* _passwordTextField;
+    CCTextField *_accountField;
+    CCTextField *_pwdField;
 }
 
-//@property CCTextField* nameTextField;
-//@property CCTextField* passwordTextField;
+
 
 @end
