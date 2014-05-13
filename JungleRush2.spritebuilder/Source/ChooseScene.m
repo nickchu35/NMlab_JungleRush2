@@ -7,6 +7,7 @@
 //
 
 #import "ChooseScene.h"
+#import "Player.h"
 
 @implementation ChooseScene
 
@@ -19,6 +20,26 @@
 }
 
 - (void)start {
+    
+    //set the chosen character
+    AnimalType theType;
+    switch (character) {
+        case 1:
+            theType=BEAR;
+            break;
+        case 2:
+            theType=LEO;
+            break;
+        case 3:
+            theType=DOG;
+            break;
+        default:
+            theType=SQUIRL;
+            break;
+    }
+    
+    [NetworkController sharedInstance].myPlayer.type=theType;
+    
     CCScene *lobbyScene = [CCBReader loadAsScene:@"PlayerLobby"];
     [[CCDirector sharedDirector] replaceScene:lobbyScene];
 }

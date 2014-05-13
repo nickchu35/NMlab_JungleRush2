@@ -20,5 +20,15 @@
     CCNode* _p2AnimalNode;
     CCNode* _p3AnimalNode;
     CCNode* _p4AnimalNode;
+    
+    CCLayoutBox* _layoutBox;
+    
+    
+    CCSprite *_myAnimal;
+    CCSprite *_animal1;
+    
+    
 }
++(id) sharedInstance;
+-(void) changeScene:(CCTime) dt;
 @end

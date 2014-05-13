@@ -284,7 +284,7 @@ class RaceProtocol(Protocol):
 
  
     def startMatch(self, message):
-        numPlayers = message.readInt()
+        numPlayers = message.readbyte()
         playerIds = []
         for i in range(0, numPlayers):
             playerId = message.readString()

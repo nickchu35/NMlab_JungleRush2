@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Player.h"
 
 typedef enum {
     
@@ -25,12 +26,16 @@ typedef enum {
     
 } NetworkState;
 
+@class Match;
+
 @protocol NetworkControllerDelegate
 - (void)stateChanged:(NetworkState)state;
 - (void)setNotInMatch;
+- (void)matchStarted:(Match *)match;
 @end
 
-@interface NetworkController : NSObject <NSStreamDelegate>{
+@interface NetworkController : NSObject <NSStreamDelegate>
+{
     BOOL _gameCenterAvailable;
     BOOL _userAuthenticated;
     //  id <NetworkControllerDelegate> _delegate;
@@ -45,8 +50,15 @@ typedef enum {
     NSMutableData *_outputBuffer;
     BOOL _okToWrite;
     NSMutableData *_inputBuffer;
-
+    
+    BOOL _okToStart;
     NSMutableArray *_totalPlayers;
+    
+    Player *_myPlayer;
+    Match *_myMatch;
+    
+    //NSString *_myPlayerId;
+    //NSString *_myAlias;
 }
 
 @property (assign, readonly) BOOL gameCenterAvailable;
@@ -63,9 +75,19 @@ typedef enum {
 @property (assign) BOOL okToWrite;
 @property (retain) NSMutableData *inputBuffer;
 
+@property (assign) BOOL okToStart;
 @property (retain) NSMutableArray *totalPlayers;
+@property (retain) Player *myPlayer;
+@property (retain) Match *myMatch;
+
+//@property (copy) NSString *myPlayerId;
+//@property (copy) NSString *myAlias;
 
 + (NetworkController *)sharedInstance;
 //- (void)authenticateLocalUser;
+- (void)sendPlayerConnected:(BOOL)continueMatch;
+- (void)sendStartMatch:(NSArray *)players ;
+- (void)sendMoveSelf:(bool)isHeadedLeft posX:(int)posX posY:(int)posY;
+- (void)sendNotifyNewGameSelf:(NSArray* ) players;
 
 @end

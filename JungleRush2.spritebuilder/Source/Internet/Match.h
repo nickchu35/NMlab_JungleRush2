@@ -16,10 +16,12 @@ typedef enum {
 @interface Match : NSObject {
     MatchState _state;
     NSArray * _players;
+    int _round;
 }
 
 @property  MatchState state;
 @property (retain) NSArray *players;
+@property int round;
 
 - (id)initWithState:(MatchState)state players:(NSArray*)players;
 

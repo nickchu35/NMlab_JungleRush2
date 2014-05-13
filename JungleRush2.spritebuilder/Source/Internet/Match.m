@@ -11,21 +11,23 @@
 @implementation Match
 @synthesize state = _state;
 @synthesize players = _players;
+@synthesize round=_round;
 
 - (id)initWithState:(MatchState)state players:(NSArray*)players
 {
     if ((self = [super init])) {
         _state = state;
-        _players = [players initWithArray:players];
+        _players = players;
+        _round=0;
     }
     return self;
 }
 
 - (void)dealloc
-{/*
-    [_players release];
-    _players = nil;
-    [super dealloc]; */
+{
+
+
+
 }
 
 @end
